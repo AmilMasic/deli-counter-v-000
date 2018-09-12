@@ -11,5 +11,5 @@ def line(array)
       arr_line << "#{index} #{name}"
     end
     binding.pry
-    puts "The line is currently: " + arr_line
+    puts "The line is currently: " + arr_line.join(" ")
   end
