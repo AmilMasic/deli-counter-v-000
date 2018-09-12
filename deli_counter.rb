@@ -18,3 +18,5 @@ def line(array)
     puts "The line is currently: " + arr_line.join(" ")
   end
   end
+#
+def take_a_number(array, customer)
