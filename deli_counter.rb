@@ -9,5 +9,6 @@ def line(array)
       index +=1
       arr_line << "#{index} #{name}"
     end
+    binding.pry
     puts "The line is currently: " + arr_line
   end
