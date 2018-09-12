@@ -19,6 +19,6 @@ def line(array)
   end
   end
 # 
-def take_a_number(array, name)
-  
+def take_a_number(katz_deli, name)
+  puts "Welcome #{name}."
 end
