@@ -2,9 +2,12 @@
 def line(array)
   if array.size == 0
       puts "The line is currently empty."
-  else
-    array.size <=1
-    
-    puts "The line is currently: "
     end
+    # defined an empty array to store itterated values in
+    arr_line = []
+    array.each_with_index do |name, index|
+      index +=1
+      arr_line << "#{index} #{name}"
+    end
+    puts "The line is currently: " + arr_line
   end
